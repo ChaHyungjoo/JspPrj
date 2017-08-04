@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+#header{
+	background: red;
+	height: 70px;
+}
+
+#visual{
+	background: green;
+	height: 171px;
+}
+
+#body{
+	background: blue;
+	height: 300px;
+}
+
+#footer{
+	background: black;
+	height: 100px;
+}
