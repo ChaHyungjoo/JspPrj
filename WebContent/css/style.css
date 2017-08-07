@@ -5,14 +5,23 @@
 	height: 70px;
 }
 
+#content-container{
+	height: 100%;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background: gray;
+}
+
 #visual{
-	background: green;
+	background: rgba(255, 255, 0, 0.2);
 	height: 171px;
 }
 
 #body{
 	background: blue;
-	height: 300px;
+	min-height: 300px;
+	
 }
 
 #footer{
