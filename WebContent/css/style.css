@@ -5,11 +5,11 @@
 	height: 70px;
 }
 
-#content-container{
+.content-container{
+	margin: auto;
+	min-height: inherit;
 	height: 100%;
 	width: 960px;
-	margin-left: auto;
-	margin-right: auto;
 	background: gray;
 }
 
@@ -17,14 +17,29 @@
 	background: rgba(255, 255, 0, 0.2);
 	height: 171px;
 }
-
+/* -----body style----------------------------------------------------------- */
 #body{
 	background: blue;
 	min-height: 300px;
 	
 }
 
+	#aside{
+		float: left;
+		min-height: inherit;
+		width: 205px;
+		background: red;
+	}
+	
+	#main{
+		min-height: inherit;
+		width: 755px;
+		background: yellow;
+	}
+
+/* -----footer style----------------------------------------------------------- */
 #footer{
 	background: black;
 	height: 100px;
 }
+
