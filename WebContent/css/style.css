@@ -32,10 +32,20 @@
 	}
 	
 	#main{
+		float: left;
 		min-height: inherit;
 		width: 755px;
 		background: yellow;
 	}
+	
+	#body::after {
+    content: "";
+    clear: left;
+    display: block;
+/*     clear: both;
+    display: table; */
+	}
+	
 
 /* -----footer style----------------------------------------------------------- */
 #footer{
