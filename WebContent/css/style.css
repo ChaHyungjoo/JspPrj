@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 #header{
-	background: red;
 	height: 70px;
 }
 
@@ -10,16 +9,21 @@
 	min-height: inherit;
 	height: 100%;
 	width: 960px;
-	background: gray;
 }
 
 #visual{
-	background: rgba(255, 255, 0, 0.2);
+	border-top: solid 3px #8cba34;
+	background: #313131 url("../images/bg-visual.png") no-repeat center center;
 	height: 171px;
 }
+
+	#visual .content-container{
+		background: #313131 url("../images/customer/visual.png") no-repeat center center;
+	}
 /* -----body style----------------------------------------------------------- */
 #body{
-	background: blue;
+	margin-top: 1px;
+	border-top: solid 5px #8cba34;
 	min-height: 300px;
 	
 }
@@ -28,14 +32,12 @@
 		float: left;
 		min-height: inherit;
 		width: 205px;
-		background: red;
 	}
 	
 	#main{
 		float: left;
 		min-height: inherit;
 		width: 755px;
-		background: yellow;
 	}
 	
 	#body::after {
@@ -49,7 +51,27 @@
 
 /* -----footer style----------------------------------------------------------- */
 #footer{
-	background: black;
+	background: #313131;
 	height: 100px;
 }
+
+/* 
+#floating{
+	position: relative;
+	width: 100%;
+	height: 300px;
+	background: orange;
+	top: 10px;
+	left: 0px;
+	bottom: 0px;
+}
+
+#floating > div{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	background: olive;
+	left: 0px;
+	top: -10px;
+} */
 
