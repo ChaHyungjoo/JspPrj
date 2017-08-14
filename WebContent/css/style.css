@@ -25,13 +25,21 @@
 	margin-top: 1px;
 	border-top: solid 5px #8cba34;
 	min-height: 300px;
-	
+}
+
+#body .content-container{
+	background: url("../images/bg-body.png") no-repeat left top;
 }
 
 	#aside{
 		float: left;
 		min-height: inherit;
 		width: 205px;
+		height: 300px;
+		overflow: auto;
+		background: url("../images/bg-aside-title.png") no-repeat left top;
+		/* background-size: cover; */
+		/* background-attachment: local; */
 	}
 	
 	#main{
