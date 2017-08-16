@@ -1,8 +1,26 @@
 @charset "UTF-8";
 
+.hidden{
+	display: none;
+}
+
+.clearfix::after  {
+	content: "";
+	clear: left;
+	display: block;
+}
+
 #header{
 	height: 70px;
 }
+
+	#main-menu{
+		
+	}
+	
+		#main-menu li{
+			float: left;
+		}
 
 .content-container{
 	margin: auto;
@@ -28,7 +46,7 @@
 }
 
 #body .content-container{
-	background: url("../images/bg-body.png") no-repeat left top;
+	background: url("../images/bg-body.png") repeat-y left top;
 }
 
 	#aside{
@@ -36,25 +54,20 @@
 		min-height: inherit;
 		width: 205px;
 		height: 300px;
-		overflow: auto;
 		background: url("../images/bg-aside-title.png") no-repeat left top;
-		/* background-size: cover; */
-		/* background-attachment: local; */
 	}
 	
 	#main{
 		float: left;
 		min-height: inherit;
 		width: 755px;
+		padding-left: 35px;
+		padding-top: 45px;
+		background: orange;
+		box-sizing: border-box;
 	}
 	
-	#body::after {
-    content: "";
-    clear: left;
-    display: block;
-/*     clear: both;
-    display: table; */
-	}
+
 	
 
 /* -----footer style----------------------------------------------------------- */
