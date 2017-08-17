@@ -15,11 +15,22 @@
 }
 
 	#main-menu{
-		
+		display: inline-block;
 	}
 	
-		#main-menu li{
+		#main-menu > ul{
+			overflow: auto;
+		}
+	
+		#main-menu ul > li{
 			float: left;
+			padding-left: 24px;
+			background: url("../images/bg-main-menu-vsp.png") no-repeat 13px center;
+		}
+		
+		#main-menu ul > li:first-child{
+			padding-left: 0px;
+			background: none;
 		}
 
 .content-container{
