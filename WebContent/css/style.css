@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+a{
+	color: #979797;
+	text-decoration: none;
+}
+	a:hover{
+		text-decoration: underline;
+	}
+
+/* --------------------------------------------------------------------- */
 .hidden{
 	display: none;
 }
@@ -10,6 +19,13 @@
 	display: block;
 }
 
+body{
+	font-family: 돋음, Arial, sans-serif;
+	font-size: 11px;
+	color: #979797;
+}
+
+/* --------------------------------------------------------------------- */
 #header{
 	height: 70px;
 }
@@ -32,6 +48,17 @@
 			padding-left: 0px;
 			background: none;
 		}
+		
+		#main-menu {
+			font-family: 맑은 고딕, 고딕, sans-serif;
+			font-size: 15px;
+			font-weight: bold;
+			color: #000000;
+		}
+		
+			#main-menu ul > li:last-child > a{
+				color: #ff6a00;
+			}
 
 .content-container{
 	margin: auto;
